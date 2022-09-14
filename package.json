@@ -1,0 +1,28 @@
+{
+  "name": "lession1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run script_1 && npm run script_2 & npm run script_3",
+    "script_1": "tsc .\\lesson1.ts -t ES5",
+    "script_2": "tsc .\\lesson1.ts --removeComments",
+    "script_3": "tsc .\\lesson1.ts --outDir compiled"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikavictoria/Lesson1.git"
+  },
+  "author": "Freestyler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikavictoria/Lesson1/issues"
+  },
+  "homepage": "https://github.com/vikavictoria/Lesson1#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
